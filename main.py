@@ -1,8 +1,12 @@
-impoprt os
+import os
 import logging
 #add basic config here
 logging.basicConfig(filename="newfile.log",
                     format='%(asctime)s %(message)s',
                     filemode='w',
                     level=logging.NOTSET)
-logging.warning("first warning")                    
+logging.debug("Harmless debug Message")
+logging.info("Just an information")
+logging.warning("Its a Warning")
+logging.error("Did you try to divide by zero")
+logging.critical("Internet is down")                  
