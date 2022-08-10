@@ -13,3 +13,4 @@ logging.critical("Internet is down")
 logging.info("I added this line while resolving the rebase/merge conflict")       
 #db connection added
 conne_str = "db:dialect://username:passoword@host:port/db_name"          
+# added few lines
