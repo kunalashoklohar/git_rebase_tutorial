@@ -12,4 +12,4 @@ logging.error("Did you try to divide by zero")
 logging.critical("Internet is down") 
 logging.info("I added this line while resolving the rebase/merge conflict")                 
 #db connection added
-conne_str = "mysql:pymysql://username:passoword@host:port/db_name"
+conne_str = "mysql:pymysql://username:passoword@127.0.0.1:3306/db_name"
