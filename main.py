@@ -13,3 +13,4 @@ logging.critical("Internet is down")
 logging.info("I added this line while resolving the rebase/merge conflict")                 
 #db connection added
 conne_str = "mysql:pymysql://username:passoword@localhost:port/db_name"
+#DB connection successfull
